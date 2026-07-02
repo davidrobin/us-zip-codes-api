@@ -1,0 +1,17 @@
+{
+  "name": "usps-zip-api",
+  "version": "1.0.0",
+  "description": "REST API that scrapes the USPS PostalPro ZIP_Locale_Detail page, downloads the published .xls file, and exposes ZIP codes grouped by state.",
+  "main": "src/server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.9",
+    "cheerio": "^1.0.0",
+    "express": "^4.21.2",
+    "xlsx": "^0.18.5"
+  }
+}
